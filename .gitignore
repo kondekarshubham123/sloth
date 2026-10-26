@@ -1,0 +1,14 @@
+# Local weights and the compiler toolchain — fetched by ./setup.sh
+models/
+vendor/
+.venv/
+
+# Local logs, plans, and scratch
+.cache/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Generated demo fodder
+demo/messy Downloads/
+demo/*.zip

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Sloth's front door. No install, no daemon, no cloud.
+set -euo pipefail
+cd "$(dirname "$0")"
+exec python3 sloth.py "$@"
